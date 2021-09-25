@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
 
 body {
-  background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);   font-family: 'Roboto', sans-serif;
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
   margin: 64px;
-  background: #ECF4FF;
-  color: #1C1C1C;
+  background: #ecf4ff;
+  color: #1c1c1c;
   border-radius: 20px;
   padding: 64px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -46,10 +47,10 @@ body {
   align-self: flex-end;
   font-size: 16px;
   padding: 8px 16px;
-  background: #ECF4FF;
+  background: #ecf4ff;
   box-sizing: border-box;
   border-radius: 100px;
-  border: 2px solid #0E1D2F;
+  border: 2px solid #0e1d2f;
 }
 
 .portfolio {
@@ -66,7 +67,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 8px 32px;
-  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
   border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
@@ -74,12 +75,12 @@ body {
 .conquistas {
   height: 400px;
   overflow-y: scroll;
-  	scrollbar-width: thin;
+  scrollbar-width: thin;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 8px 32px;
-  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
   border-radius: 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
@@ -109,48 +110,48 @@ body {
 }
 
 .conquistas img {
-  max-height: 100px
+  max-height: 100px;
 }
 
 .dark {
-  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
 }
-  
+
 .dark .container {
   background: #333439;
-  color: #F6F6F6;
+  color: #f6f6f6;
 }
 
 .dark .portfolio {
-  color: #1C1C1C;
+  color: #1c1c1c;
 }
 
 .dark .tema button {
-  color: #FFFFFF;
-  background: #1C1C1C;
+  color: #ffffff;
+  background: #1c1c1c;
   box-sizing: border-box;
   border-radius: 100px;
-  border: 2px solid #F7F7F7;
+  border: 2px solid #f7f7f7;
 }
 
-::-webkit-scrollbar{
-width: 5px;
-height: 5px;
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
 }
 
-::-webkit-scrollbar-thumb{
-background: #1C1C1C;
-border: 1.8px solid #1C1C1C;
-border-radius: 100px;
+::-webkit-scrollbar-thumb {
+  background: #1c1c1c;
+  border: 1.8px solid #1c1c1c;
+  border-radius: 100px;
 }
 
-::-webkit-scrollbar-thumb:hover{
-background: #ECF4FF;
+::-webkit-scrollbar-thumb:hover {
+  background: #ecf4ff;
 }
 
-::-webkit-scrollbar-track{
-background: #ECF4FF;
-border-radius: 100px;
-box-shadow: inset 0px 0px 0px 0px #F0F0F0;
-margin: 15px 0px;
+::-webkit-scrollbar-track {
+  background: #ecf4ff;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+  margin: 15px 0px;
 }
